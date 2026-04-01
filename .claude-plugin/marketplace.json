@@ -21,8 +21,9 @@
       "description": "Build and deploy vibecoded apps to bare metal servers. /vibe loads platform constraints, /deploy handles deployment via SSH.",
       "category": "development",
       "source": {
-        "source": "url",
-        "url": "https://github.com/ismakov-dh/claude-vibe-deploy.git"
+        "source": "git-subdir",
+        "url": "https://github.com/ismakov-dh/claude-vibe-deploy.git",
+        "path": "plugin"
       },
       "homepage": "https://github.com/ismakov-dh/claude-vibe-deploy"
     }
