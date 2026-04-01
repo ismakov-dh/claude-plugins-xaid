@@ -1,0 +1,30 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "xaid-plugins",
+  "description": "Internal plugins for the xAID team",
+  "owner": {
+    "name": "xAID Team"
+  },
+  "plugins": [
+    {
+      "name": "xaid-shared-skills",
+      "description": "Shared skills for the xAID team — radiology report grading, sales analysis, reporting, and workflow automation",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/theVmagnificient/xaid-shared-skills.git"
+      },
+      "homepage": "https://github.com/theVmagnificient/xaid-shared-skills"
+    },
+    {
+      "name": "vibe-deploy",
+      "description": "Build and deploy vibecoded apps to bare metal servers. /vibe loads platform constraints, /deploy handles deployment via SSH.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ismakov-dh/claude-vibe-deploy.git"
+      },
+      "homepage": "https://github.com/ismakov-dh/claude-vibe-deploy"
+    }
+  ]
+}
