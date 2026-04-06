@@ -30,3 +30,17 @@ Build and deploy vibecoded apps to bare metal servers:
 ```
 /plugins install vibe-deploy@claude-plugins-xaid
 ```
+
+### qagent
+
+Automated UI and behavior testing — Claude orchestrates browser interactions, verifies state changes, and evolves test cases from failures.
+
+- `/qagent:test` — Execute test flows defined in `qagent.json`
+- `/qagent:plan` — Preview test execution without running tests
+- `/qagent:explore` — Interactive QA testing with browser exploration
+- `/qagent:merge` — Merge discovered test cases into target branch
+- `/qagent:report` — Re-send results from the last test run
+
+```
+/plugins install qagent@claude-plugins-xaid
+```
